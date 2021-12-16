@@ -1,0 +1,66 @@
+.top-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    height: 540px;
+    width: 100%;
+    color: #000000;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+  }
+
+  .name {
+    display: flex;
+    justify-content: center;
+  }
+
+  #name {
+    font-weight: 700;
+  }
+
+  /*MIN 1024PX*/
+  @media (min-width: 1024px) {
+    .top-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding-top: 25vh;
+      margin-left: 5%;
+      margin-right: 2.5%;
+      width: 25%;
+      height: 80vh;
+      color: #000000;
+    }
+
+    .avatar-name {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .name h2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    #first-name {
+      font-size: 32px;
+      margin: 0px 2px 0px 2px;
+    }
+
+    #last-name {
+      font-size: 32px;
+      margin: 0px 2px 0px 2px;
+    }
+  }
+
+  /*MAX 768*/
+  @media (max-width: 768px) {
+   .top-header {
+    padding-top: 140px;
+    height: 500px;
+   }
+  }

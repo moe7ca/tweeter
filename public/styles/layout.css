@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #000000;
+  background-color: #6ad5ff;
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #D1DDEF;
+}
+
+/* ++++++++MEDIA QUERY ABOVE 1024PX++++++++ */
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    color: #000000;
+    background-color: #6ad5ff;
+    background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  main {
+    margin-left: 2.5%;
+    margin-right: 5%;
+    padding-top: 15vh;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+    width: 60%;
+  }
+}
